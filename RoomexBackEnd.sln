@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RoomexBackEnd.Application", "RoomexBackEnd.Application\RoomexBackEnd.Application.csproj", "{395755B0-F4E3-4A86-B676-4F0C9F473208}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application", "{0E598328-81AA-4739-8986-3872D4B0BF49}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{F29AB09E-8ECF-44D8-BA15-A591FA786764}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{6ECC8DB2-244C-4398-A59B-E99938615856}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RoomexBackEnd.Core", "RoomexBackEnd.Core\RoomexBackEnd.Core.csproj", "{72B20C9E-DB28-4B78-BF6C-5FF7FFF87510}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RoomexBackEnd.Infrastructure", "RoomexBackEnd.Infrastructure\RoomexBackEnd.Infrastructure.csproj", "{4866895C-81C7-45BB-BFEF-A3C992B67C79}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RoomexBackEnd.Core.Test", "RoomexBackEnd.Core.Test\RoomexBackEnd.Core.Test.csproj", "{F7465888-CFC6-4565-8B61-27B9EBBC01DA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RoomexBackEnd.IntegrationTest", "RoomexBackEnd.IntegrationTest\RoomexBackEnd.IntegrationTest.csproj", "{ADC059FF-F7D2-4FDE-ABF8-51EF089651DF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{395755B0-F4E3-4A86-B676-4F0C9F473208}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{395755B0-F4E3-4A86-B676-4F0C9F473208}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{395755B0-F4E3-4A86-B676-4F0C9F473208}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{395755B0-F4E3-4A86-B676-4F0C9F473208}.Release|Any CPU.Build.0 = Release|Any CPU
+		{72B20C9E-DB28-4B78-BF6C-5FF7FFF87510}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72B20C9E-DB28-4B78-BF6C-5FF7FFF87510}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72B20C9E-DB28-4B78-BF6C-5FF7FFF87510}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72B20C9E-DB28-4B78-BF6C-5FF7FFF87510}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4866895C-81C7-45BB-BFEF-A3C992B67C79}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4866895C-81C7-45BB-BFEF-A3C992B67C79}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4866895C-81C7-45BB-BFEF-A3C992B67C79}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4866895C-81C7-45BB-BFEF-A3C992B67C79}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F7465888-CFC6-4565-8B61-27B9EBBC01DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7465888-CFC6-4565-8B61-27B9EBBC01DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7465888-CFC6-4565-8B61-27B9EBBC01DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7465888-CFC6-4565-8B61-27B9EBBC01DA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ADC059FF-F7D2-4FDE-ABF8-51EF089651DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ADC059FF-F7D2-4FDE-ABF8-51EF089651DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ADC059FF-F7D2-4FDE-ABF8-51EF089651DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ADC059FF-F7D2-4FDE-ABF8-51EF089651DF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{395755B0-F4E3-4A86-B676-4F0C9F473208} = {0E598328-81AA-4739-8986-3872D4B0BF49}
+		{72B20C9E-DB28-4B78-BF6C-5FF7FFF87510} = {F29AB09E-8ECF-44D8-BA15-A591FA786764}
+		{4866895C-81C7-45BB-BFEF-A3C992B67C79} = {6ECC8DB2-244C-4398-A59B-E99938615856}
+		{F7465888-CFC6-4565-8B61-27B9EBBC01DA} = {F29AB09E-8ECF-44D8-BA15-A591FA786764}
+	EndGlobalSection
+EndGlobal
