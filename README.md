@@ -3,9 +3,9 @@
 
 * Sql Server installed on the same machine or you must edit Data Source in all connection strings in 
 
-Web.config in RoomexBackEndoject.Application project and 
-App.config in RoomexBackEnd.Infrastructure project and 
-app.config in RoomexBackEnd.IntegrationTest pr
+* Web.config in RoomexBackEndoject.Application project and 
+* App.config in RoomexBackEnd.Infrastructure project and 
+* app.config in RoomexBackEnd.IntegrationTest project
 
 ## First step
 
