@@ -17,7 +17,7 @@ choose RoomexBackEnd.Infrastructure project from the above dropdown list
 
 ## Second step
 
-*Run the solution from the top bar click on Documentaion you will redirect to swagger documentaion click on planet 
+* Run the solution from the top bar click on Documentaion you will redirect to swagger documentaion click on planet 
  then click on /api/Planets then click on try it out button wait untill you see the result 
  ** Copy Request URL you will use it in RoomexFrontEnd app replace it with the _url in RoomexFrontEnd/app/planet/planet.service.ts**
  
